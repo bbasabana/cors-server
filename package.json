@@ -1,0 +1,18 @@
+{
+  "name": "cors-proxy",
+  "version": "1.0.0",
+  "description": "Un serveur proxy pour gérer les problèmes de CORS",
+  "main": "server.js", 
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Votre Nom",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.1",
+    "request": "^2.88.2"
+  }
+}
